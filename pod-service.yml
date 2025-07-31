@@ -6,9 +6,9 @@ metadata:
     app: myapp
 spec:
   selector:
-    app: my-pod
+    app: my-app
   ports:
   - port: 80
-    targetPort: 80
+    targetPort: httpd-port
     protocol: TCP
   type: ClusterIP
