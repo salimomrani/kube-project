@@ -6,7 +6,7 @@ metadata:
     app: myapp
 spec:
   selector:
-    app: myapp
+    app: my-pod
   ports:
   - port: 80
     targetPort: 80
